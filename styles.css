@@ -66,6 +66,12 @@ img:hover {
 }
 
 @media screen and (min-width: 1024px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
   img, .box {
     height: 220px;
     width: 220px;
